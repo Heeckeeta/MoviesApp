@@ -1,0 +1,140 @@
+.card {
+  background: #ffffff;
+  width: 450px;
+  height: 280px;
+  box-shadow: 0px 4px 12px 0px #00000026;
+  margin-left: 35px;
+  margin-bottom: 35px;
+  position: relative;
+}
+
+.card__img {
+  position: absolute;
+  width: 180px;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+}
+
+.card__rate {
+  width: 30px;
+  padding-left: 4px;
+  box-sizing: border-box;
+  height: 30px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border-radius: 50%;
+}
+
+.card__rate1 {
+  border: 2px solid #e90000;
+}
+
+.card__rate2 {
+  border: 2px solid #e97e00;
+}
+
+.card__rate3 {
+  border: 2px solid #e9d100;
+}
+
+.card__rate4 {
+  border: 2px solid #66e900;
+}
+
+.card__title {
+  margin-top: 10px;
+  margin-left: 200px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  max-width: 200px;
+  max-height: 25px;
+  overflow: hidden;
+}
+
+.card__date {
+  margin-left: 200px;
+  margin-bottom: 10px;
+  color: #827e7e;
+}
+
+.card__jenres {
+  display: flex;
+  margin-left: 200px;
+  margin-bottom: 10px;
+}
+
+.card__jenre {
+  border: 1px solid #d9d9d9;
+  background: #fafafa;
+  color: #000000a6;
+  padding: 2px 5px;
+  margin-right: 8px;
+  text-align: center;
+  vertical-align: center;
+}
+
+.card__text {
+  margin-left: 200px;
+  margin-right: 20px;
+  overflow: hidden;
+}
+
+.card__pagination {
+  font-size: 15px;
+  width: 250px;
+  height: 15px;
+  position: relative;
+  margin-left: 45%;
+  margin-top: 10px;
+}
+
+@media (max-width: 519px) {
+  .card {
+    width: 90%;
+    height: 60vw;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .card__img {
+    width: 16%;
+    height: 37%;
+    top: 2%;
+    left: 3%;
+  }
+
+  .card__rate {
+    top: 5px;
+    right: 5px;
+  }
+
+  .card__title {
+    margin-left: 22%;
+  }
+
+  .card__date {
+    margin-left: 22%;
+  }
+
+  .card__jenres {
+    margin-left: 22%;
+    margin-bottom: 8%;
+  }
+
+  .card__text {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  .card__pagination {
+    margin-left: 30%;
+    margin-top: 10px;
+  }
+}

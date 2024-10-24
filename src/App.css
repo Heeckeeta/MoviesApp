@@ -1,0 +1,54 @@
+.main {
+  background: #ffffff;
+  width: 1005px;
+  min-height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.app__spin {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.app__input {
+  width: 935px;
+  margin-top: 5%;
+  margin-left: 35px;
+  margin-bottom: 5%;
+  font-size: 20px;
+}
+
+.wrapper {
+  width: 100%;
+  position: relatve;
+  height: 50px;
+}
+
+.app__pagination {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 1004px) {
+  .main {
+    width: 520px;
+  }
+  .app__input {
+    width: 450px;
+  }
+}
+
+@media (max-width: 519px) {
+  .main {
+    width: 100%;
+  }
+  .app__input {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
